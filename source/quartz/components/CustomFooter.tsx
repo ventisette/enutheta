@@ -1,26 +1,22 @@
-import { QuartzComponent, QuartzComponentConstructor } from "./types"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
-const CustomFooter: QuartzComponent = () => {
-  const year = new Date().getFullYear()
+export default (() => {
+  const CustomFooter: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
+    const year = new Date().getFullYear()
 
-  return (
-    <footer style={{
-      textAlign: "center",
-      marginTop: "2rem",
-      padding: "1rem",
-      opacity: 0.7,
-      fontSize: "0.9rem"
-    }}>
-      <div>
-        © {year} Stensin. Enutheta is an original universe concept and world setting.
-      </div>
-      <div>
-        <a href="https://lore.enutheta.com">
-          Enutheta lore archives.
-        </a>
-      </div>
-    </footer>
-  )
-}
+    return (
+      <footer class={`${displayClass ?? ""}`}>
+        <p>© {year} Stensin. Enutheta is an original universe concept and world setting.</p>
+        <ul>
+          <li>
+            <a href="https://lore.enutheta.com" target="_blank" rel="noopener noreferrer">
+              Enutheta lore archives.
+            </a>
+          </li>
+        </ul>
+      </footer>
+    )
+  }
 
-export default (() => CustomFooter) satisfies QuartzComponentConstructor
+  return CustomFooter
+}) satisfies QuartzComponentConstructor
