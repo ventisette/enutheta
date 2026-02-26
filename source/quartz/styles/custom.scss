@@ -9,14 +9,9 @@
 
 .site-title::before {
   content: "";
-  width: 48px;
-  height: 48px;
+  width: 28px;
+  height: 28px;
   background-image: url("/enutheta/static/icon.png");
   background-size: contain;
   background-repeat: no-repeat;
-}
-
-/* Hide the "Created with Quartz ..." line, keep the links */
-footer .footer p:first-child {
-  display: none !important;
 }
