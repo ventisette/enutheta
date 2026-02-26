@@ -7,11 +7,12 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   afterBody: [],
   footer: Component.Footer({
-  links: {
-    [`© ${new Date().getFullYear()} Stensin. Enutheta is an original universe concept and world setting.`]: "",
-    "Enutheta lore archives.": "https://lore.enutheta.com",
-  },
-})
+    links: {
+      [`© ${new Date().getFullYear()} Stensin. Enutheta is an original universe concept and world setting.`]:
+        "",
+      "Enutheta lore archives.": "https://lore.enutheta.com",
+    },
+  }),
 }
 
 // components for pages that display a single page (e.g. a single note)
@@ -36,9 +37,13 @@ export const defaultContentPageLayout: PageLayout = {
   ],
 }
 
-// components for pages that display lists of pages  (e.g. tags or folders)
+// components for pages that display lists of pages (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [
+    Component.Breadcrumbs(),
+    Component.ArticleTitle(),
+    Component.ContentMeta(),
+  ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
