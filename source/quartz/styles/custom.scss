@@ -1,17 +1,17 @@
 @use "./base.scss";
 
 // put your custom CSS here!
-.page-title {
+.site-title {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
-.page-title::before {
+.site-title::before {
   content: "";
   width: 28px;
   height: 28px;
-  background-image: url("/static/icon.png");
+  background-image: url("/enutheta/static/icon.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
