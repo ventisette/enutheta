@@ -16,16 +16,8 @@
   background-repeat: no-repeat;
 }
 
-/* Hide any "Created with Quartz" text in the footer */
-footer :is(p, div, span, small, a) {
-  /* no-op, just to ensure specificity via next rule */
-}
-
-footer *:has(> a[href*="quartz"]) {
-  display: none !important;
-}
-
-/* Fallback: hide the first line-like element in the footer container */
-footer > *:first-child {
+/* Hide the entire line that contains the Quartz link, but keep other footer links */
+footer p:has(a[href*="quartz"]),
+footer div:has(a[href*="quartz"]) {
   display: none !important;
 }
