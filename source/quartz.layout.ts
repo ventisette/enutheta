@@ -6,7 +6,12 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [],
-  footer: null,
+  footer: Component.Footer({
+  links: {
+    [`© ${new Date().getFullYear()} Stensin. Enutheta is an original campaign setting.`]: "",
+    "Click here to visit lore.enutheta.com": "https://lore.enutheta.com",
+  },
+}),
 }
 
 // components for pages that display a single page (e.g. a single note)
