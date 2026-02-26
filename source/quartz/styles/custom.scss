@@ -17,6 +17,6 @@
 }
 
 /* Hide the "Created with Quartz ..." line, keep the links */
-footer p:first-child {
+footer .footer p:first-child {
   display: none !important;
 }
