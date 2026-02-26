@@ -1,7 +1,5 @@
 ---
-title: My GitHub Pages Notebook!
+title: Enutheta Wiki
 ---
 
-Hello world!
-
-Write some words here!
+Welcome! This page is still under construction.
