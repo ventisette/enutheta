@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "[icon.png] Enutheta Wiki",
+    pageTitle: "Enutheta Wiki",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
