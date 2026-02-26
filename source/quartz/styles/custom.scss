@@ -15,3 +15,8 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+/* Hide the "Created with Quartz ..." line, keep the links */
+footer p:first-child {
+  display: none !important;
+}
