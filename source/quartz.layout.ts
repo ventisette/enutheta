@@ -8,8 +8,8 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
   links: {
-    [`© ${new Date().getFullYear()} Stensin. Enutheta is an original campaign setting.`]: "",
-    "Click here to visit the Enutheta lore archives": "https://lore.enutheta.com",
+    [`© ${new Date().getFullYear()} Stensin. Enutheta is an universe and world setting.`]: "",
+    "Click here to visit the Enutheta lore archives.": "https://lore.enutheta.com",
   },
 }),
 }
