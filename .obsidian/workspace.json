@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/content/category-folder/index.md",
+                "file": "source/content/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/content/category-folder/index.md",
+                "file": "source/content/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/content/category-folder/index.md",
+                "file": "source/content/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/content/category-folder/index.md",
+                "file": "source/content/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -186,11 +186,11 @@
   },
   "active": "86c0caf08c9d4b3a",
   "lastOpenFiles": [
-    "source/CODE_OF_CONDUCT.md",
-    "source/content/category-folder/index.md",
     "source/content/Some note.md",
-    "source/content/index.md",
     "source/content/category-folder/Some note.md",
+    "source/content/category-folder/index.md",
+    "source/content/index.md",
+    "source/CODE_OF_CONDUCT.md",
     "source/README.md",
     "README.md"
   ]
