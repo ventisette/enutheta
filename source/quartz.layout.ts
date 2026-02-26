@@ -1,18 +1,13 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import CustomFooter from "./quartz/components/CustomFooter"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [],
-  footer: Component.Footer({
-    links: {
-      [`© ${new Date().getFullYear()} Stensin. Enutheta is an original universe concept and world setting.`]:
-        "",
-      "Enutheta lore archives.": "https://lore.enutheta.com",
-    },
-  }),
+  footer: CustomFooter(),
 }
 
 // components for pages that display a single page (e.g. a single note)
