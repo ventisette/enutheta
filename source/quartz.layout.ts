@@ -9,7 +9,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
   links: {
     [`© ${new Date().getFullYear()} Stensin. Enutheta is an original campaign setting.`]: "",
-    "Click here to visit lore.enutheta.com": "https://lore.enutheta.com",
+    "Click here to visit the Enutheta lore archives": "https://lore.enutheta.com",
   },
 }),
 }
