@@ -24,24 +24,24 @@
 :root[saved-theme="dark"],
 :root[data-theme=dark],
 :root[data-theme="dark"] {
-  --light: #243e80;
-  --lightgray: #121f3d;
-  --gray: #2a2f3a;
-  --darkgray: #c0c8d6;
-  --dark: #e6edf3;
-  --secondary: #8aadf4;
-  --tertiary: #a6da95;
+  --light: #243e80 !important;
+  --lightgray: #121f3d !important;
+  --gray: #2a2f3a !important;
+  --darkgray: #c0c8d6 !important;
+  --dark: #e6edf3 !important;
+  --secondary: #8aadf4 !important;
+  --tertiary: #a6da95 !important;
 }
 
 :root[saved-theme=light],
 :root[saved-theme="light"],
 :root[data-theme=light],
 :root[data-theme="light"] {
-  --light: #f0e3bc;
-  --lightgray: #e6e0d4;
-  --darkgray: #3b3228;
-  --dark: #2a241c;
-  --secondary: #5a6c8a;
+  --light: #f0e3bc !important;
+  --lightgray: #e6e0d4 !important;
+  --darkgray: #3b3228 !important;
+  --dark: #2a241c !important;
+  --secondary: #5a6c8a !important;
 }
 
 /* Hide the "Created with Quartz" line, keep your links */
