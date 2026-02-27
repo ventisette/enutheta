@@ -1,23 +1,23 @@
 @use "./base.scss";
 
-/* Make the title link a flex row */
+/* Stack icon above text */
 .page-title > a {
   display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  flex-direction: column;   /* this makes it vertical */
+  align-items: flex-start;  /* align left (use center if you prefer centered) */
+  gap: 0.25rem;
 }
 
-/* Add the icon before the text */
+/* Icon above text */
 .page-title > a::before {
   content: "";
-  width: 44px;
-  height: 56px;
+  width: 48px;
+  height: 64px; /* slightly taller for your icon's aspect ratio */
   background-image: url("/static/icon.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  display: inline-block;
-  flex: 0 0 auto;
+  display: block;
 }
 
 /* Hide the "Created with Quartz" line, keep your links */
