@@ -2,6 +2,10 @@
 
 // put your custom CSS here!
 .page-title > a::before {
+  background-color: red;
+}
+
+.page-title > a::before {
   content: "";
   width: 48px;
   height: 48px;
