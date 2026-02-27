@@ -11,8 +11,8 @@
 /* Icon above text */
 .page-title > a::before {
   content: "";
-  width: 64px;
-  height: 80px; /* slightly taller for your icon's aspect ratio */
+  width: 128px;
+  height: 160px; /* slightly taller for your icon's aspect ratio */
   background-image: url("/static/icon.png");
   background-size: contain;
   background-position: center;
