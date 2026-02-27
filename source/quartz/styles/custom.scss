@@ -1,19 +1,28 @@
 @use "./base.scss";
 
 // put your custom CSS here!
-.site-title {
+/* Apply to both possible title classes */
+.site-title,
+.page-title,
+.page-title a,
+.site-title a {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
-.site-title::before {
+/* Add icon before whichever one exists */
+.site-title::before,
+.page-title::before,
+.page-title a::before,
+.site-title a::before {
   content: "";
   width: 48px;
   height: 48px;
   background-image: url("/static/icon.png");
   background-size: contain;
   background-repeat: no-repeat;
+  flex: 0 0 auto;
 }
 
 /* Hide the entire line that contains the Quartz link, but keep other footer links */
