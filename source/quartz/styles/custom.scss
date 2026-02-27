@@ -1,21 +1,14 @@
 @use "./base.scss";
 
 // put your custom CSS here!
-/* Apply to both possible title classes */
-.site-title,
-.page-title,
-.page-title a,
-.site-title a {
+/* Put icon next to the PageTitle component (your "Enutheta Wiki") */
+.page-title {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
-/* Add icon before whichever one exists */
-.site-title::before,
-.page-title::before,
-.page-title a::before,
-.site-title a::before {
+.page-title::before {
   content: "";
   width: 48px;
   height: 48px;
