@@ -1,32 +1,26 @@
 @use "./base.scss";
 
-// put your custom CSS here!
-.page-title > a::before {
-  background-color: red;
+/* Make the title link a flex row */
+.page-title > a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
+/* Add the icon before the text */
 .page-title > a::before {
   content: "";
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 56px;
   background-image: url("/static/icon.png");
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
   display: inline-block;
   flex: 0 0 auto;
 }
 
-.page-title::before {
-  content: "";
-  width: 48px;
-  height: 48px;
-  background-image: url("/static/icon.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  flex: 0 0 auto;
-}
-
-/* Hide the entire line that contains the Quartz link, but keep other footer links */
+/* Hide the "Created with Quartz" line, keep your links */
 footer p:has(a[href*="quartz"]),
 footer div:has(a[href*="quartz"]) {
   display: none !important;
