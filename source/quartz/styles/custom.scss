@@ -2,7 +2,7 @@
 
 // put your custom CSS here!
 /* Put icon next to the PageTitle component (your "Enutheta Wiki") */
-.page-title {
+.page-title > a {
   display: flex;
   align-items: center;
   gap: 0.5rem;
