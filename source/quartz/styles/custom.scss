@@ -20,7 +20,10 @@
   display: block;
 }
 
-:root[saved-theme=dark] {
+:root[saved-theme=dark],
+:root[saved-theme="dark"],
+:root[data-theme=dark],
+:root[data-theme="dark"] {
   --light: #243e80;
   --lightgray: #121f3d;
   --gray: #2a2f3a;
@@ -30,8 +33,11 @@
   --tertiary: #a6da95;
 }
 
-:root[saved-theme="light"] {
-  --light: #9c9273;
+:root[saved-theme=light],
+:root[saved-theme="light"],
+:root[data-theme=light],
+:root[data-theme="light"] {
+  --light: #f0e3bc;
   --lightgray: #e6e0d4;
   --darkgray: #3b3228;
   --dark: #2a241c;
