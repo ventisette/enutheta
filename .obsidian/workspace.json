@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/content/index.md",
+                "file": "source/content/category-folder/Enutheta Test.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Enutheta Test"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/content/index.md",
+                "file": "source/content/category-folder/Enutheta Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for Enutheta Test"
             }
           },
           {
@@ -185,6 +185,13 @@
   },
   "active": "86c0caf08c9d4b3a",
   "lastOpenFiles": [
+    "source/content/category-folder/index.md",
+    "source/content/category-folder/Enutheta Test.md",
+    "source/content/category-folder/Some note.md",
+    "source/content/Some note.md",
+    "source/content/index.md",
+    "README.md",
+    "source/README.md",
     "source/quartz/static/og-image.png",
     "source/quartz/static/oldog-image.png",
     "source/quartz/static/ogimage.png",
@@ -192,12 +199,6 @@
     "source/quartz/components/New Text Document.txt",
     "source/quartz/static/icon.png",
     "source/quartz/static/oldicon.png",
-    "source/content/Some note.md",
-    "source/content/category-folder/Some note.md",
-    "source/content/category-folder/index.md",
-    "source/content/index.md",
-    "source/CODE_OF_CONDUCT.md",
-    "source/README.md",
-    "README.md"
+    "source/CODE_OF_CONDUCT.md"
   ]
 }
