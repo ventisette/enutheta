@@ -1,11 +1,15 @@
 @use "./base.scss";
 
 // put your custom CSS here!
-/* Put icon next to the PageTitle component (your "Enutheta Wiki") */
-.page-title > a {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+.page-title > a::before {
+  content: "";
+  width: 48px;
+  height: 48px;
+  background-image: url("/static/icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  flex: 0 0 auto;
 }
 
 .page-title::before {
