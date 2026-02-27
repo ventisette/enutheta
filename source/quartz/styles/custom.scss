@@ -20,6 +20,24 @@
   display: block;
 }
 
+:root[saved-theme="dark"] {
+  --light: #0b0d12;
+  --lightgray: #141821;
+  --gray: #2a2f3a;
+  --darkgray: #c0c8d6;
+  --dark: #e6edf3;
+  --secondary: #8aadf4;
+  --tertiary: #a6da95;
+}
+
+:root[saved-theme="light"] {
+  --light: #f4f1e8;
+  --lightgray: #e6e0d4;
+  --darkgray: #3b3228;
+  --dark: #2a241c;
+  --secondary: #5a6c8a;
+}
+
 /* Hide the "Created with Quartz" line, keep your links */
 footer p:has(a[href*="quartz"]),
 footer div:has(a[href*="quartz"]) {
